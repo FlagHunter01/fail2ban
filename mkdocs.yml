@@ -92,6 +92,13 @@ theme:
     - search.highlight
 
 ###
+### Footer
+###
+
+    # Footer navigation
+    - navigation.footer
+
+###
 ### Tags
 ###
 
@@ -126,3 +133,12 @@ extra:
     How to: howto
     FAQ: faq
     Miscellaneous: misc
+  
+  # Footer social links
+  social:
+    - icon: material/github
+      link: https://github.com/fail2ban/fail2ban
+      name: fail2ban/fail2ban
+    - icon: material/email
+      link: https://sourceforge.net/projects/fail2ban/lists/fail2ban-users
+      name: "Mailing List: fail2ban-users"
