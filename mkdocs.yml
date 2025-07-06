@@ -47,3 +47,12 @@ theme:
 ###
 
   language: en
+
+###
+### Logo and icons
+###
+
+  # Logo displayed in the top menu
+  logo: assets/logo.png
+  # Favicon displayed in the navigator tab
+  favicon: assets/icon.png
