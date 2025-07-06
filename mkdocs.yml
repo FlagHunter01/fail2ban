@@ -55,4 +55,4 @@ theme:
   # Logo displayed in the top menu
   logo: assets/logo.png
   # Favicon displayed in the navigator tab
-  favicon: assets/icon.png
+  favicon: assets/logo.png
