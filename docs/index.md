@@ -15,3 +15,15 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Contributing
+
+### Documentation
+
+In order to preview your contributions to the documentation, you need to configure Material for MkDocs on your Windows or Linux machine. 
+
+Follow the instructions for [installation](https://squidfunk.github.io/mkdocs-material/getting-started/) and [site creation](https://squidfunk.github.io/mkdocs-material/creating-your-site/). You will also need the following packets, obtaineable via `pip`:
+
+```
+"mkdocs-material[imaging]" mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
+```

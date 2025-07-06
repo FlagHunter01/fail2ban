@@ -8,6 +8,19 @@ site_name: fail2ban
 # Site URL
 site_url: https://fail2ban.github.io/fail2ban
 
+###
+### Git repository
+###
+
+# URL of the repo
+repo_url: https://github.com/fail2ban/fail2ban
+
+# Name of the repo
+repo_name: fail2ban/fail2ban
+
+# URI for editing the site
+edit_uri: edit/main/docs/
+
 # Theme
 theme:
   name: material
@@ -99,6 +112,13 @@ theme:
     - navigation.footer
 
 ###
+### Git
+###
+
+    # Allow editing of the pages
+    - content.action.edit
+
+###
 ### Tags
 ###
 
@@ -112,6 +132,16 @@ theme:
       faq: material/frequently-asked-questions
       misc: material/information-slab-circle
 
+###
+### Git 
+###
+
+    repo: material/github
+
+###
+### Plugins
+###
+
 plugins:
 
   # GRDP compliance
@@ -122,6 +152,16 @@ plugins:
 
   # Tags
   - tags
+
+  # Git revisioning
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
+  
+  # Git commiters
+  - git-committers:
+      repository: fail2ban/fail2ban
+      branch: main
 
 extra:
   
