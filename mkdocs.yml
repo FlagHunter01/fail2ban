@@ -56,3 +56,8 @@ theme:
   logo: assets/logo.png
   # Favicon displayed in the navigator tab
   favicon: assets/logo.png
+
+plugins:
+
+  # GRDP compliance
+  - privacy
