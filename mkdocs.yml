@@ -81,8 +81,20 @@ theme:
     # Back-to-top button
     - navigation.top
 
+###
+### Search
+###
+
+    # Search suggestions
+    - search.suggest
+
+    # Highlight search results
+    - search.highlight
 
 plugins:
 
   # GRDP compliance
   - privacy
+
+  # Search
+  - search
