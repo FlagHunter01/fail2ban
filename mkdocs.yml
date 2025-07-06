@@ -91,6 +91,20 @@ theme:
     # Highlight search results
     - search.highlight
 
+###
+### Tags
+###
+
+  icon:
+    tag:
+      default: material/tag
+      test: material/test-tube
+      start: material/rocket
+      ref: material/note
+      howto: material/book
+      faq: material/frequently-asked-questions
+      misc: material/information-slab-circle
+
 plugins:
 
   # GRDP compliance
@@ -98,3 +112,17 @@ plugins:
 
   # Search
   - search
+
+  # Tags
+  - tags
+
+extra:
+  
+  # Tags
+  tags:
+    TEST: test
+    Getting started: start
+    Reference: ref
+    How to: howto
+    FAQ: faq
+    Miscellaneous: misc
