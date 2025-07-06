@@ -182,3 +182,55 @@ extra:
     - icon: material/email
       link: https://sourceforge.net/projects/fail2ban/lists/fail2ban-users
       name: "Mailing List: fail2ban-users"
+
+markdown_extensions:
+  # Abbreviations
+  - abbr
+  # Admonition
+  - admonition
+  # Attribute Lists
+  - attr_list
+  # Definition Lists¶
+  - def_list
+  # Footnotes
+  - footnotes
+  # Markdown in HTM
+  - md_in_html
+  # Table of Contents
+  - toc:
+      permalink: ⚓︎
+      permalink_title: Anchor link to this section for reference
+  # Tables
+  - tables
+  # Better markup detection
+  - pymdownx.betterem
+  # Add captions to nearly anything
+  - pymdownx.blocks.caption
+  # Highlighting, superscript and subscript
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  # Render diffs
+  - pymdownx.critic
+  # Better admonition
+  - pymdownx.details
+  # Highlighting inside code blocks
+  - pymdownx.highlight:
+      anchor_linenums: true
+      #linenums: true
+      line_spans: __span
+  # Allows embedded nesting of a lot of elements
+  - pymdownx.superfences
+  # Color syntax of code blocks
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  # Enable rendering of keyboard keys
+  - pymdownx.keys
+  # Allows to render content tabs (e.g.: proceed with installation Linux | Windows)
+  - pymdownx.tabbed:
+      alternate_style: true
+  # Tasklists with checkboxes
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  
+
