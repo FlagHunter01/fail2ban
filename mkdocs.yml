@@ -57,6 +57,31 @@ theme:
   # Favicon displayed in the navigator tab
   favicon: assets/logo.png
 
+  features:
+
+###
+### Navigation
+###
+
+    # XHR loading
+    - navigation.instant
+
+    # Anchor tracking
+    - navigation.tracking
+
+    # Navigation tabs
+    - navigation.tabs
+
+    # Section index pages
+    - navigation.indexes
+
+    # Anchor following in toc
+    - toc.follow
+
+    # Back-to-top button
+    - navigation.top
+
+
 plugins:
 
   # GRDP compliance
