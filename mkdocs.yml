@@ -1,1 +1,13 @@
-site_name: My Docs
+###
+### General settings
+###
+
+# Displayed site name
+site_name: fail2ban
+
+# Site URL
+site_url: https://fail2ban.github.io/fail2ban
+
+# Theme
+theme:
+  name: material
