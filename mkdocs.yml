@@ -182,6 +182,15 @@ extra:
     - icon: material/email
       link: https://sourceforge.net/projects/fail2ban/lists/fail2ban-users
       name: "Mailing List: fail2ban-users"
+    - icon: octicons/heart-16
+      link: https://github.com/sponsors/sebres
+      name: Become a sponsor to Sergey G. Brester
+    - icon: simple/paypal
+      link: https://www.paypal.com/paypalme/sebres
+      name: PayPal
+    - icon: simple/liberapay
+      link: https://liberapay.com/sebres
+      name: Liberapay
 
 markdown_extensions:
   # Abbreviations
